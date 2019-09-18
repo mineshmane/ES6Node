@@ -1,0 +1,20 @@
+[
+    {
+        "number": "12345",
+        "title": "CPU",
+        "hardware": "inteli5",
+        "price": "15.99"
+    },
+    {
+        "number": "35342",
+        "title": "laptop",
+        "hardware": "i7",
+        "price": "39.99"
+    },
+    {
+        "number": "34890",
+        "title": "Fortnite",
+        "hardware": "Nintendo Switch",
+        "price": "00.00"
+    }
+]

@@ -1,0 +1,1 @@
+this called before work function  printed after log 
