@@ -19,7 +19,7 @@ getUsersPosts=()=> {
 }
 
 
-async function userProfile() {
+userProfile=async ()=> {
 
     try {
 

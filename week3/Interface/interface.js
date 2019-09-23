@@ -1,17 +1,24 @@
 var customer = {
     firstName: "Tom",
     lastName: "Hanks",
-    sayHi: function () { return "Hi there"; }
+    profile: "devops",
+    experience: 5,
+    getInfo: function () { return "Hi there"; }
 };
 console.log("Customer Object ");
 console.log(customer.firstName);
 console.log(customer.lastName);
-console.log(customer.sayHi());
+console.log(customer.getInfo());
 var employee = {
     firstName: "Jim",
     lastName: "Blakes",
-    sayHi: function () { return "Hello!!!"; }
+    profile: "tester",
+    experience: 7,
+    getInfo: function () { return "Hello!!!"; }
 };
 console.log("Employee  Object ");
 console.log(employee.firstName);
 console.log(employee.lastName);
+console.log(employee.experience);
+console.log(employee.profile);
+console.log(employee.getInfo());

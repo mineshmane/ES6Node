@@ -1,8 +1,11 @@
 // a simple function to add something
 const add = (n) => (n + 10);
-add(9);
+// add(9);
 // a simple memoized function to add something
+let c = 0;
 const memoizedAdd = () => {
+  console.log(" momo called ", c++);
+
   let cache = {};
   return (n) => {
     if (n in cache) {

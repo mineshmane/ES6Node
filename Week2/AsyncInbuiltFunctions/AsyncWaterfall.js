@@ -21,7 +21,7 @@ async.waterfall([
 });
 
 
-doSomething = (call) => {
+function doSomething (call) {
   let param = 10;
   if (param + 20 == 30) {
     setTimeout(() => {
@@ -32,7 +32,7 @@ doSomething = (call) => {
     call("Error")
   }
 }
-doMore = (param, call) => {
+function doMore(param, call) {
   if (param + 20 == 50) {
     setTimeout(() => {
       call(null, param + 20);
@@ -41,7 +41,7 @@ doMore = (param, call) => {
     call("Error")
   }
 }
-insertRow = (param, call) => {
+function insertRow (param, call) {
   if (param + 20 == 70) {
     setTimeout(() => {
       call(null, param + 20);
@@ -50,7 +50,7 @@ insertRow = (param, call) => {
     call("Error")
   }
 }
-yetAnotherOperation = (param, call) => {
+function yetAnotherOperation  (param, call) {
   if (param + 20 == 90) {
     setTimeout(() => {
       call(null, param + 20);
@@ -59,7 +59,7 @@ yetAnotherOperation = (param, call) => {
     call("Error")
   }
 }
-somethingElse = (param, callback) => {
+function somethingElse  (param, callback) {
   if (param + 10 == 100) {
 
     setTimeout(() => {

@@ -1,12 +1,13 @@
 const fs = require('fs');
-const data = fs.readFileSync('/home/admin1/gitclone/CoreNodejs/week1/Bloking-NonBloking/data.txt'); // blocks here until file is read
-console.log(data);
-console.log(data.toString());
-var i = 10;
-
+reading = () => {
+    const data = fs.readFileSync('/home/admin1/gitclone/CoreNodejs/week1/Bloking-NonBloking/data.txt'); // blocks here until file is read
+    console.log(data);
+    console.log(data.toString());
+}
 moreWork = () => {
     console.log(" more work ");
     // i = "minesh"
+    reading();
     console.log(" prtinted ", i);
 
 }

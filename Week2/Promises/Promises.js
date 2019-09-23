@@ -12,7 +12,7 @@ divisonAsync = (number1, number2) => {
     });
 }
 let a = 6;
-let b = 6;
+let b = 'l';
 
 divisonAsync(a, b).then(data => {
     console.log(data);

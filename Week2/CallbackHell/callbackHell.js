@@ -1,7 +1,7 @@
 //callbackHell 
 
 
-doSomething((err, result) => {
+doSomething((err, result)=> {
     console.log(" wait 5 seconds for first callback called ");
 
     if (err) {
@@ -49,7 +49,7 @@ doSomething((err, result) => {
         })
     }
 });
-doSomething = (call) => {
+function doSomething (call) {
     let param = 10;
     if (param + 20 == 30) {
         setTimeout(() => {
