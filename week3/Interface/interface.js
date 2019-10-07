@@ -14,7 +14,9 @@ var employee = {
     lastName: "Blakes",
     profile: "tester",
     experience: 7,
-    getInfo: function () { return "Hello!!!"; }
+    getInfo: function () {
+        return "Hello!!!" + employee;
+    }
 };
 console.log("Employee  Object ");
 console.log(employee.firstName);
